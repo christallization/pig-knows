@@ -1,0 +1,157 @@
+.app {
+  max-width: 700px;
+
+  h2 {
+    font-size: 1.2rem;
+    color: #4a4a4a;
+    margin: 15px 0px 15px 0px;
+    padding: 0px 0px 10px 0px;
+    white-space: nowrap;
+    border-bottom: 1px solid #4a4a4a;
+  }
+
+  h3 {
+    font-size: 1rem;
+    color: #4a4a4a;
+    margin: 5px 0px;
+    padding: 0px;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .yellow {
+    background-color: #f5e100;
+  }
+  
+  .blue {
+    background-color: #00e1f5;
+  }
+  
+  label {
+    display: block;
+    width: 100%;
+    font-size: .875em;
+  }
+  
+  svg {
+    margin: 0px 7px 0px 2px;
+  }
+  
+  .profile-column {
+    margin: 0 10px;
+    border: 1px solid #ccc;
+
+    .profile_form {
+      div {
+        display: block;
+      }
+    }
+
+    form {
+      width: 100%;
+
+      .form-group {
+        .input-group {
+          .btn {
+            padding: 0 3px 0 7px;
+          }
+        }
+      }
+    }
+
+    .btn {
+      white-space: nowrap;
+    }
+
+  }
+  
+  .results-column {
+    border: 1px solid #ccc;
+    font-size: .875em;
+    margin: 0 10px;
+  }
+  
+  .results_table {
+    width: 100%;
+    max-height: 380px;
+    overflow-y: auto; 
+    overflow-x: hidden;
+    padding: 0px 10px;
+    margin: 0 0 20px 0;
+
+    h1 {
+      font-size: 1.5rem;
+      text-align: center;
+      display: block;
+      color: #069;
+    }
+
+    p {
+      width: 75%;
+      display: block;
+      margin: 0 auto 10px auto;
+      font-size: .75rem;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    img {
+      width: 75%;
+      display: block;
+      margin: 0 auto;
+    }
+
+    table {
+      width: 100%;
+      margin: 20px 0px 0px 0px;
+      border-collapse: separate;
+    }
+
+    thead {
+      th {
+        text-align: left;
+        padding: 0px 0px 0px 5px;
+      }
+    }
+
+    tbody {
+      tr {
+        text-align: left;
+        td {
+          padding: 0px 0px 0px 5px;
+        }
+      }
+    }
+
+    .stats_table {
+      .row {
+        div {
+          &:nth-child(odd) {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    .colorant_table {
+      /*background: #242424;*/ 
+    }
+
+    table.account_table {
+      margin: 0px;
+      border: 1px solid #dee2e6;
+      font-size: .75rem;
+      border-collapse: collapse;
+
+      td, th {
+        padding: 4px 0 1px 5px;
+        border-left: 1px solid #000;
+        cursor: pointer;
+      }
+
+    }
+
+  }
+
+}
+

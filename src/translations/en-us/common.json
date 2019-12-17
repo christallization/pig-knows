@@ -1,0 +1,27 @@
+{
+    "translations": {
+        "new_profile": "New Profile",
+        "first_name": "First Name",
+        "enter_first_name": "Enter Persona's First Name",
+        "last_name": "Last Name",
+        "enter_last_name": "Enter Persona's Last Name",
+        "interests": "Interests (Comma Separated)",
+        "enter_interests": "Enter Persona's Interests",
+        "location": "Location",
+        "enter_location": "Enter Persona's Street Address",
+        "all_profiles": "All Profiles",
+        "active_personas": "Active Personas",
+        "id": "Persona ID",
+        "name": "Name",
+        "save": "Save",
+        "clear": "Clear",
+        "first_records": "First Records",
+        "last_records": "Last Records",
+        "error_post_min": "First Name, Last Name and Location require a minimum of 2 character(s) each",
+        "error_space": "Spaces and Null values are not allowed!",
+        "error_colour_min": "Color search requires a minimum of 3 character(s)",
+        "error_colour_search": "Color search field cannot be empty!",
+        "error_national": "Please select a National Account!",
+        "error_search_min": "Color and/or Products search requires a minimum of 2 character(s)"
+    }
+}
